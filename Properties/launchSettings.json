@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IndexTesting": {
+      "commandName": "Project",
+      "commandLineArgs": "-i \"C:\\strike-data\\indexes\\radiology\\2022\\03\" -q %enumerate-terms modality"
+    }
+  }
+}

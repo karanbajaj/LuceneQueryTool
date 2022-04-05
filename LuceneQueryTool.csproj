@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Program.cs~RF107347d4.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="Spectre.Console" Version="0.43.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Strike.Components.Indexing\Strike.Components.Indexing.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Strike.Components">
+      <HintPath>..\Components\bin\Debug\netcoreapp3.1\Strike.Components.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
